@@ -1,20 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T03:18:19.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TyzdIhk74DkBxT_mjy9d" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T07:15:59.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ABSm6uOABs5qgvmHhDvF" version="21.5.0" type="github">
   <diagram name="第 1 页" id="bBvsN8iroXIrdniodsAV">
-    <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="igFqEQNSGW9ujfR-BA13-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="igFqEQNSGW9ujfR-BA13-1" target="igFqEQNSGW9ujfR-BA13-2">
+        <mxCell id="igFqEQNSGW9ujfR-BA13-168" value="招聘流程管理" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="785.75" height="842" as="geometry" />
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-169" value="" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-168">
+          <mxGeometry y="40" width="785.75" height="802" as="geometry" />
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-170" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-169">
+          <mxGeometry x="40" width="139" height="802" as="geometry">
+            <mxRectangle width="139" height="802" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-171" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-169">
+          <mxGeometry x="179" width="139" height="802" as="geometry">
+            <mxRectangle width="139" height="802" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-172" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-169">
+          <mxGeometry x="318" width="325" height="802" as="geometry">
+            <mxRectangle width="325" height="802" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-6" value="用人部门发起招聘需求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-172">
+          <mxGeometry x="112.5" y="217" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-173" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-169">
+          <mxGeometry x="643" width="143" height="802" as="geometry">
+            <mxRectangle width="143" height="802" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-2" value="用人部门发起招聘需求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-173">
+          <mxGeometry x="26" y="117" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-7" value="审核" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-173">
+          <mxGeometry x="26" y="167" width="101" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="igFqEQNSGW9ujfR-BA13-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="igFqEQNSGW9ujfR-BA13-173" source="igFqEQNSGW9ujfR-BA13-2" target="igFqEQNSGW9ujfR-BA13-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="igFqEQNSGW9ujfR-BA13-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="580" y="40" width="50" height="50" as="geometry" />
+        <mxCell id="igFqEQNSGW9ujfR-BA13-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="igFqEQNSGW9ujfR-BA13-173">
+          <mxGeometry x="56.5" y="48" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="igFqEQNSGW9ujfR-BA13-2" value="用人部门发起招聘需求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="555" y="112" width="100" height="30" as="geometry" />
+        <mxCell id="igFqEQNSGW9ujfR-BA13-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="igFqEQNSGW9ujfR-BA13-173" source="igFqEQNSGW9ujfR-BA13-1" target="igFqEQNSGW9ujfR-BA13-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="igFqEQNSGW9ujfR-BA13-6" value="用人部门发起招聘需求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="555" y="168" width="100" height="30" as="geometry" />
+        <mxCell id="igFqEQNSGW9ujfR-BA13-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="igFqEQNSGW9ujfR-BA13-169" source="igFqEQNSGW9ujfR-BA13-7" target="igFqEQNSGW9ujfR-BA13-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="444" y="251" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
